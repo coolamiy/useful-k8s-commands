@@ -1,0 +1,1 @@
+ k get ing -A  -o custom-columns=NAME:.metadata.name,"NAMESPACE":.metadata.namespace,SECRET_NAME:.spec.tls\.\.secretName,HOST:.spec.tls\.\.hosts
